@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Alegreya+Sans&family=Merriweather&family=Merriweather+Sans&family=Nunito&family=Nunito+Sans&family=Quattrocento&family=Quattrocento+Sans&family=Roboto&family=Roboto+Mono&family=Roboto+Slab&display=swap');
+@import url("https://use.typekit.net/gmh4pna.css");
+
+// $background:rgb(236, 234, 228);
+<<<<<<< Updated upstream
+$background:rgb(255, 255, 255);
+=======
+$background:rgba(26, 26, 26, 0.582);
+>>>>>>> Stashed changes
+$base-color: rgb(78, 167, 159);
+$nav-bar: rgb(9, 71, 66);
+
+.logo{
+    max-width: 30rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    font-size: 20px;
+    background-color: $background;
+    color: rgb(133, 133, 133);
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: $base-color;
+}
+
+
+section {
+    display: table;
+  }
+    
+  .button-row {
+    margin-left: auto;
+    margin-right: auto;
+    display: table-cell;
+    width: 490px;
+  }
+  
+  .button-row .mat-button-base {
+    margin: 8px 8px 8px 0;
+  }
+
+  
+  .button-container {
+    padding: 1em;
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  router-outlet {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: red;
+  }
