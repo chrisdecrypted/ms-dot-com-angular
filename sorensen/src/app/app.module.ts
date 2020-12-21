@@ -7,7 +7,6 @@ import { ServicesComponent } from './services/services.component';
 import { ContactComponent } from './contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule } from '@angular/material/button';
-import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +14,6 @@ import { MainComponent } from './main/main.component';
     AboutComponent,
     ServicesComponent,
     ContactComponent,
-    MainComponent
   ],
   imports: [
     BrowserModule,
